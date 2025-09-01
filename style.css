@@ -26,6 +26,7 @@
 
 body {
     background: var(--bg-url) no-repeat top center/cover;
+    height: 100vh;
 }
 
 body * {
@@ -153,4 +154,13 @@ footer {
     gap: 8px;
     font-size: 14px;
     opacity: 35%;
+}
+
+@media (min-width: 700px){
+    :root{
+        --bg-url: url(./assets/Desktop04.png);
+    }
+    .light{
+        --bg-url: url(./assets/Desktop04-light.png);
+    }
 }
