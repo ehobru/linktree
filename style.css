@@ -31,7 +31,7 @@ body {
 }
 
 body * {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: var(--text-color);
 }
 
@@ -57,6 +57,9 @@ body * {
     margin-top: 6px;
 }
 
+#profile h6{
+    font-weight: 350;
+}
 #switch{
     position: relative;
     width: 64px;
